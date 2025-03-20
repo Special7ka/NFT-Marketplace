@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@100..900&display=swap");
 @import "tailwindcss";
 
 body {
   @apply bg-[#3B3B3B];
+}
+@theme {
+  --font-SpaceMono: "Space Mono", monospace;
+  --font-WorkSans: "Work Sans", sans-serif;
 }
