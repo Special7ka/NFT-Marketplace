@@ -1,4 +1,5 @@
 import "./App.css";
+import { Button } from "./components/UI/Button";
 
 function App() {
   return (
@@ -16,14 +17,7 @@ function App() {
           <li className="px-[20px]">Marketplace</li>
           <li className="px-[20px]">Rankings</li>
           <li className="px-[20px]">Connect a wallet</li>
-          <button className="inline-flex gap-[12px] h-14 px-7 bg-purple-500 rounded-[20px] items-center">
-            <img
-              className="w-5 h-5"
-              src="public\images\nav-user.svg"
-              alt="nav-user.svg"
-            />
-            Sign Up
-          </button>
+          <Button iconPath="/images/nav-user.svg">Sign up</Button>
         </ul>
       </header>
     </>
