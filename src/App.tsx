@@ -5,11 +5,11 @@ function App() {
     <>
       <header className="py-[20px] px-[50px] flex items-center justify-between text-white font-WorkSans ">
         <div className="flex">
-          <img src="\assets\Logo\logoIcon.svg" alt="" />
+          <img src="\images\logoIcon.svg" alt="" />
           <img
             className="ml-[12px] mb-[3.6px] mt-[8.6px]"
-            src="\assets\Logo\NameLogo.svg"
-            alt=""
+            src="\images\NameLogo.svg"
+            alt="nameLogo"
           />
         </div>
         <ul className=" flex gap-[10px] items-center">
