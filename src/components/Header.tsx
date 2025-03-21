@@ -15,7 +15,9 @@ export const Header = () => {
         <li className="px-[20px]">Marketplace</li>
         <li className="px-[20px]">Rankings</li>
         <li className="px-[20px]">Connect a wallet</li>
-        <Button iconPath="/images/nav-user.svg">Sign up</Button>
+        <Button iconPath="/images/nav-user.svg" className="px-[30px]">
+          Sign up
+        </Button>
       </ul>
     </header>
   );

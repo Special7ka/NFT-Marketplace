@@ -3,6 +3,7 @@
 
 body {
   @apply bg-[#3B3B3B];
+  @apply text-white;
 }
 @theme {
   --font-SpaceMono: "Space Mono", monospace;
