@@ -35,13 +35,16 @@ export const HeroSection = () => {
         </div>
       </div>
       <div>
-        <img src="\images\HeroCard.png" alt="HeroCard" />
+        <img src="/images/HeroSectionImg/HeroCard.png" alt="HeroCard" />
         <div className=" h-28 p-5 bg-neutral-700 rounded-bl-[20px] rounded-br-[20px] flex flex-col gap-[10px]">
           <h1 className="font-semibold text-xl leading-loose max-h-[31px]">
             Space Walking
           </h1>
           <div className="flex gap-[12px] items-center">
-            <img src="\images\avatar-Hero.png" alt="heroAvatar" />
+            <img
+              src="/images/HeroSectionImg/avatar-Hero.png"
+              alt="heroAvatar"
+            />
             <span className=" font-WorkSans leading-snug">Animakid</span>
           </div>
         </div>
