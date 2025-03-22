@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-[#3B3B3B];
+  @apply bg-[#2B2B2B];
   @apply text-white;
 }
 @theme {
