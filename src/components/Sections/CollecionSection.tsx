@@ -27,7 +27,7 @@ export const CollecionSection = () => {
     },
   ];
   return (
-    <section className="mt-[80px] px-[115px] flex flex-col">
+    <section className="py-[80px] px-[115px] flex flex-col">
       <div>
         <h1 className="text-4xl font-semibold font-WorkSans capitalize leading-10">
           Trending Collection
