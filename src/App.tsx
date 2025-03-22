@@ -1,7 +1,8 @@
 import "./App.css";
-import { Header } from "./components/Header";
-import { HeroSection } from "./components/HeroSection";
-import { CollecionSection } from "./components/CollecionSection";
+import { Header } from "./components/Sections/Header";
+import { HeroSection } from "./components/Sections/HeroSection";
+import { CollecionSection } from "./components/Sections/CollecionSection";
+import { TopRatedSection } from "./components/Sections/TopRatedSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeroSection />
       <CollecionSection />
+      <TopRatedSection />
     </>
   );
 }
