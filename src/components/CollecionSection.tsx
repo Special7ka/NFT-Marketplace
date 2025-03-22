@@ -2,10 +2,10 @@ import { getAltFromPath } from "./Utils/GetAltFrompath";
 export const CollecionSection = () => {
   const cards = [
     {
-      mainImgPath: "images/DogNft.png",
-      firstMini: "images/CatNFT.png",
-      secondMini: "images/BearNFT.png",
-      authAvatar: "images/avatar-fox.png",
+      mainImgPath: "/images/CollectionSectionImg/DogNft.png",
+      firstMini: "images/CollectionSectionImg/CatNFT.png",
+      secondMini: "images/CollectionSectionImg/BearNFT.png",
+      authAvatar: "images/CollectionSectionImg/avatar-fox.png",
       authName: "MrFox",
       title: "DSGN Animals",
     },
