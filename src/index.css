@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-[#2B2B2B];
   @apply text-white;
+  @apply bg-[#1d1d1d];
 }
 @theme {
   --font-SpaceMono: "Space Mono", monospace;
