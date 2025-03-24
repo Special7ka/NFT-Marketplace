@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
 type ButtonProps = {
-  iconPath: string;
-  children: ReactNode;
+  iconPath?: string;
+  children?: ReactNode;
   className?: string;
   variant?: "primary" | "secondary";
 };
