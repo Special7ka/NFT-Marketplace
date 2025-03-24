@@ -4,6 +4,7 @@ import { HeroSection } from "./components/Sections/HeroSection";
 import { CollecionSection } from "./components/Sections/CollecionSection";
 import { TopRatedSection } from "./components/Sections/TopRatedSection";
 import { BrowseCategoresSection } from "./components/Sections/BrowseCategoresSection";
+import { DiscoverMore } from "./components/Sections/DiscoverMore";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CollecionSection />
       <TopRatedSection />
       <BrowseCategoresSection />
+      <DiscoverMore />
     </>
   );
 }
