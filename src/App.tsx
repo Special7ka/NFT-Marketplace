@@ -6,6 +6,8 @@ import { TopRatedSection } from "./components/Sections/TopRatedSection";
 import { BrowseCategoresSection } from "./components/Sections/BrowseCategoresSection";
 import { DiscoverMore } from "./components/Sections/DiscoverMore";
 import { MagicMashroomsSection } from "./components/Sections/MagicMashroomsSection";
+import { HowItWorksSection } from "./components/Sections/HowItWorksSection";
+import { SubscribeSection } from "./components/Sections/SubscribeSection";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <BrowseCategoresSection />
       <DiscoverMore />
       <MagicMashroomsSection />
+      <HowItWorksSection />
+      <SubscribeSection />
     </>
   );
 }
