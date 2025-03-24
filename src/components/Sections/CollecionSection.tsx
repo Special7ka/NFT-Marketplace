@@ -12,8 +12,8 @@ export const CollecionSection = () => {
     {
       mainImgPath: "/images/CollectionSectionImg/mashroomMain.png",
       firstMini: "/images/CollectionSectionImg/mashroomFirst.png",
-      secondMini: "public/images/CollectionSectionImg/mashroomSecond.png",
-      authAvatar: "public/images/CollectionSectionImg/avatar-AAng.png",
+      secondMini: "/images/CollectionSectionImg/mashroomSecond.png",
+      authAvatar: "/images/CollectionSectionImg/avatar-AAng.png",
       title: "Magic Mushrooms",
       authName: "Shroomie",
     },
