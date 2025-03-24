@@ -3,6 +3,7 @@ import { Header } from "./components/Sections/Header";
 import { HeroSection } from "./components/Sections/HeroSection";
 import { CollecionSection } from "./components/Sections/CollecionSection";
 import { TopRatedSection } from "./components/Sections/TopRatedSection";
+import { BrowseCategoresSection } from "./components/Sections/BrowseCategoresSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <CollecionSection />
       <TopRatedSection />
+      <BrowseCategoresSection />
     </>
   );
 }
