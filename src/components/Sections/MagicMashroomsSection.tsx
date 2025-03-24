@@ -1,5 +1,6 @@
 import { Button } from "../UI/Button";
 import { getAltFromPath } from "../Utils/GetAltFrompath";
+import { Timer } from "../UI/TImer";
 
 export const MagicMashroomsSection = () => {
   return (
@@ -22,25 +23,7 @@ export const MagicMashroomsSection = () => {
           See NFT
         </Button>
       </div>
-      <div className="bg-[#3B3B3B80] max-w-[295px] max-h-[144px] h-full rounded-[20px] p-[30px]">
-        <p className="text-xs font-SpaceMono">Auction ends in:</p>
-        <div className="flex justify-between  text-4xl">
-          <div className="flex flex-col gap-[5px]">
-            <span className="font-bold">59</span>
-            <p className="text-xs font-normal font-SpaceMono">Hours</p>
-          </div>
-          <span>:</span>
-          <div className="flex flex-col gap-[5px]">
-            <span className="font-bold">59</span>
-            <p className="text-xs font-normal font-SpaceMono">Minutes</p>
-          </div>
-          <span>:</span>
-          <div className="flex flex-col gap-[5px]">
-            <span className="font-bold">59</span>
-            <p className="text-xs font-normal font-SpaceMono">Seconds</p>
-          </div>
-        </div>
-      </div>
+      <Timer />
     </section>
   );
 };
