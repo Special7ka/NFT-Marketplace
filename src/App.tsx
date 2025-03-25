@@ -8,6 +8,7 @@ import { DiscoverMore } from "./components/Sections/DiscoverMore";
 import { MagicMashroomsSection } from "./components/Sections/MagicMashroomsSection";
 import { HowItWorksSection } from "./components/Sections/HowItWorksSection";
 import { SubscribeSection } from "./components/Sections/SubscribeSection";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <MagicMashroomsSection />
       <HowItWorksSection />
       <SubscribeSection />
+      <Footer />
     </>
   );
 }

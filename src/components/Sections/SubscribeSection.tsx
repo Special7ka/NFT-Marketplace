@@ -16,7 +16,7 @@ export const SubscribeSection = () => {
           <p className="text-xl font-normal font-WorkSans mt-[10px] leading-9 mb-[40px]">
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <MyInput />
+          <MyInput iconPath="/images/email.svg" />
         </div>
       </div>
     </section>

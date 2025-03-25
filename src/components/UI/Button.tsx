@@ -21,7 +21,9 @@ export const Button = ({
 
   return (
     <button className={` ${base} ${styles[variant]} `}>
-      <img className="w-5 h-5 " src={iconPath} alt="nav-user.svg" />
+      {iconPath && (
+        <img className="w-5 h-5 " src={iconPath} alt="nav-user.svg" />
+      )}
       {children}
     </button>
   );
