@@ -1,4 +1,4 @@
-import { Button } from "../UI/Button";
+import { Button } from "../components/UI/Button";
 
 export const Header = () => {
   return (
