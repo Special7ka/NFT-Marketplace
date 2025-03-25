@@ -1,4 +1,5 @@
 import { getAltFromPath } from "../Utils/GetAltFrompath";
+import { MyInput } from "../UI/MyInput";
 
 export const SubscribeSection = () => {
   return (
@@ -12,10 +13,10 @@ export const SubscribeSection = () => {
           <h1 className="text-4xl font-semibold font-WorkSans max-w-[400px] leading-10">
             Join our weekly Digest
           </h1>
-          <p className="text-xl font-normal font-WorkSans mt-[10px] leading-9">
+          <p className="text-xl font-normal font-WorkSans mt-[10px] leading-9 mb-[40px]">
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <input type="text" placeholder="asdadas" className="mt-[40px]" />
+          <MyInput />
         </div>
       </div>
     </section>
