@@ -6,8 +6,8 @@ export const SubscribeSection = () => {
     <section className="pt-[40px] pb-[80px] px-[115px]">
       <div className="max-w-[1050px] p-[60px] flex gap-[80px] bg-[#3B3B3B] rounded-[20px] ">
         <img
-          src="public/images/Comsos.png"
-          alt={getAltFromPath("public/images/Comsos.png")}
+          src="/images/Comsos.png"
+          alt={getAltFromPath("/images/Comsos.png")}
         />
         <div className="flex flex-col justify-center">
           <h1 className="text-4xl font-semibold font-WorkSans max-w-[400px] leading-10">
