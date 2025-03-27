@@ -1,4 +1,5 @@
 import { Header } from "../Header";
+import { MyInput } from "../UI/MyInput";
 import { Footer } from "../Footer";
 
 const CreateAccount = () => {
@@ -13,7 +14,12 @@ const CreateAccount = () => {
             Welcome! enter your details and start creating, collecting and
             selling NFTs.
           </p>
-          <div className="mt-[40px]"></div>
+          <div className="mt-[40px] flex flex-col gap-[15px] max-w-[330px]">
+            <MyInput iconPath="/images/user.svg" />
+            <MyInput />
+            <MyInput />
+            <MyInput />
+          </div>
         </div>
       </section>
       <Footer />
