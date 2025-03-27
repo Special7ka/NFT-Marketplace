@@ -1,15 +1,15 @@
 import { Header } from "../Sections/Sheared/Header";
-import { RegisterSection } from "../Sections/CreateAccount/RegisterSection";
 import { Footer } from "../Sections/Sheared/Footer";
+import { ConnectWalletSection } from "../Sections/ConnectWallet/ConnectWalletSection";
 
-const CreateAccount = () => {
+const ConnectWallet = () => {
   return (
     <>
       <Header />
-      <RegisterSection />
+      <ConnectWalletSection />
       <Footer />
     </>
   );
 };
 
-export default CreateAccount;
+export default ConnectWallet;

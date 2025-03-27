@@ -1,4 +1,4 @@
-import { MyInput } from "./UI/MyInput";
+import { MyInput } from "../../UI/MyInput";
 
 export const Footer = () => {
   return (
