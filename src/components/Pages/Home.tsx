@@ -1,12 +1,12 @@
 import { Header } from "../Header";
-import { HeroSection } from "../Sections/HeroSection";
-import { CollecionSection } from "../Sections/CollecionSection";
-import { TopRatedSection } from "../Sections/TopRatedSection";
-import { BrowseCategoresSection } from "../Sections/BrowseCategoresSection";
-import { DiscoverMore } from "../Sections/DiscoverMore";
-import { MagicMashroomsSection } from "../Sections/MagicMashroomsSection";
-import { HowItWorksSection } from "../Sections/HowItWorksSection";
-import { SubscribeSection } from "../Sections/SubscribeSection";
+import { HeroSection } from "../Sections/Home/HeroSection";
+import { CollecionSection } from "../Sections/Home/CollecionSection";
+import { TopRatedSection } from "../Sections/Home/TopRatedSection";
+import { BrowseCategoresSection } from "../Sections/Home/BrowseCategoresSection";
+import { DiscoverMore } from "../Sections/Home/DiscoverMore";
+import { MagicMashroomsSection } from "../Sections/Home/MagicMashroomsSection";
+import { HowItWorksSection } from "../Sections/Home/HowItWorksSection";
+import { SubscribeSection } from "../Sections/Home/SubscribeSection";
 import { Footer } from "../Footer";
 
 const Home = () => {

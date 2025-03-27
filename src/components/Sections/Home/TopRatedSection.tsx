@@ -1,5 +1,5 @@
-import { Button } from "../UI/Button";
-import { getAltFromPath } from "../Utils/GetAltFrompath";
+import { Button } from "../../UI/Button";
+import { getAltFromPath } from "../../Utils/GetAltFrompath";
 
 export const TopRatedSection = () => {
   const creators = [

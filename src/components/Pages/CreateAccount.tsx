@@ -1,5 +1,6 @@
 import { Header } from "../Header";
 import { MyInput } from "../UI/MyInput";
+import { Button } from "../UI/Button";
 import { Footer } from "../Footer";
 
 const CreateAccount = () => {
@@ -15,10 +16,17 @@ const CreateAccount = () => {
             selling NFTs.
           </p>
           <div className="mt-[40px] flex flex-col gap-[15px] max-w-[330px]">
-            <MyInput iconPath="/images/user.svg" />
-            <MyInput />
-            <MyInput />
-            <MyInput />
+            <MyInput placeholder="Username" iconPath="/images/user.svg" />
+            <MyInput
+              placeholder="Email Address"
+              iconPath="/images/emailgrey.svg"
+            />
+            <MyInput placeholder="Password" iconPath="/images/key.svg" />
+            <MyInput
+              placeholder="Confirm Password"
+              iconPath="/images/key.svg"
+            />
+            <Button className="mt-[15px] max-h-[46px] ">Create account</Button>
           </div>
         </div>
       </section>

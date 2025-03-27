@@ -5,9 +5,15 @@ type InputProps = {
   iconPath?: string;
   btnIconPath?: string;
   isButton?: boolean;
+  placeholder: string;
 };
 
-export const MyInput = ({ btnIconPath, isButton, iconPath }: InputProps) => {
+export const MyInput = ({
+  btnIconPath,
+  isButton,
+  iconPath,
+  placeholder,
+}: InputProps) => {
   return (
     <div
       className={`flex  bg-white 
@@ -17,7 +23,7 @@ export const MyInput = ({ btnIconPath, isButton, iconPath }: InputProps) => {
       {iconPath && <img src={iconPath} alt={getAltFromPath(iconPath)} />}
       <input
         type="text"
-        placeholder="Enter your email here"
+        placeholder={placeholder}
         className=" placeholder-opacity-100 placeholder-[#2B2B2B] "
       />
       {isButton && (

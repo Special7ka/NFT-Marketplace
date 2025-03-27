@@ -13,7 +13,7 @@ export const Button = ({
   className,
   variant = "primary",
 }: ButtonProps) => {
-  const base = `inline-flex gap-[12px] w-auto h-[60px] rounded-[20px] items-center font-WorkSans ${className} `;
+  const base = `inline-flex gap-[12px] w-auto h-[60px] rounded-[20px] items-center font-WorkSans justify-center ${className} `;
   const styles = {
     primary: "bg-purple-500",
     secondary: "border-2 border-[#A259FF]",

@@ -1,4 +1,4 @@
-import { getAltFromPath } from "../Utils/GetAltFrompath";
+import { getAltFromPath } from "../../Utils/GetAltFrompath";
 
 export const HowItWorksSection = () => {
   const howItWorksCards = [

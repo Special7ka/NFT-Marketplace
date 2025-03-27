@@ -1,6 +1,6 @@
-import { Button } from "../UI/Button";
-import { getAltFromPath } from "../Utils/GetAltFrompath";
-import { Timer } from "../UI/TImer";
+import { Button } from "../../UI/Button";
+import { getAltFromPath } from "../../Utils/GetAltFrompath";
+import { Timer } from "../../UI/TImer";
 
 export const MagicMashroomsSection = () => {
   return (

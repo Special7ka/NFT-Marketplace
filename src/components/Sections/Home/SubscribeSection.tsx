@@ -1,5 +1,5 @@
-import { getAltFromPath } from "../Utils/GetAltFrompath";
-import { MyInput } from "../UI/MyInput";
+import { getAltFromPath } from "../../Utils/GetAltFrompath";
+import { MyInput } from "../../UI/MyInput";
 
 export const SubscribeSection = () => {
   return (
@@ -16,7 +16,11 @@ export const SubscribeSection = () => {
           <p className="text-xl font-normal font-WorkSans mt-[10px] leading-9 mb-[40px]">
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <MyInput btnIconPath="/images/email.svg" isButton />
+          <MyInput
+            placeholder="Enter your email here"
+            btnIconPath="/images/email.svg"
+            isButton
+          />
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
-import { getAltFromPath } from "../Utils/GetAltFrompath";
-import { Button } from "../UI/Button";
+import { getAltFromPath } from "../../Utils/GetAltFrompath";
+import { Button } from "../../UI/Button";
 
 export const DiscoverMore = () => {
   const DiscoverCards = [
