@@ -35,7 +35,7 @@ export const Footer = () => {
           <p className="mt-[32px] mb-[20px] max-w-[330px]">
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <MyInput />
+          <MyInput isButton />
         </div>
       </div>
       <hr className="mt-[30px]" />
