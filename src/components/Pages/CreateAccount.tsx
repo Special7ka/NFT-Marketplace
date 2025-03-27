@@ -1,6 +1,6 @@
-import { Header } from "../Sections/Sheared/Header";
+import { Header } from "../Sections/Shared/Header";
 import { RegisterSection } from "../Sections/CreateAccount/RegisterSection";
-import { Footer } from "../Sections/Sheared/Footer";
+import { Footer } from "../Sections/Shared/Footer";
 
 const CreateAccount = () => {
   return (

@@ -1,5 +1,5 @@
-import { Header } from "../Sections/Sheared/Header";
-import { Footer } from "../Sections/Sheared/Footer";
+import { Header } from "../Sections/Shared/Header";
+import { Footer } from "../Sections/Shared/Footer";
 import { ConnectWalletSection } from "../Sections/ConnectWallet/ConnectWalletSection";
 
 const ConnectWallet = () => {
